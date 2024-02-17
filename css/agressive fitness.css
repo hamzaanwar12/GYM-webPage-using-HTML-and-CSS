@@ -1,0 +1,375 @@
+/* 
+    The FOLLOWING is not working from here!
+*/
+
+/* body {
+
+    margin: 0px;
+    padding: 0px;
+    background: url('project pics/pat lee.jpg');
+    height: 2048px;
+} */
+
+
+/* h1
+{
+    background-color: blanchedalmond;
+    color:khaki;
+    display: inline-block;
+} */
+
+
+.left {
+    display: inline-block;
+    margin: 7px 15px;
+    /* float :left; */
+    border:3px solid #d9c094;
+}
+
+.left img {
+    height: 70px;
+    width: 70px;
+    /* margin: 3px 0px; */
+    float: left;
+
+}
+
+.mid {
+    display: block;
+    width: 44%;
+    height:7px;
+    /* margin: -40px auto; */
+    margin:auto;
+    position:absolute;
+    top:12px;
+    left:450px;
+}
+
+.right img{
+    display:inline-block;
+    height:55px;
+    width:50px;
+    /* float:right; */
+    position: relative;
+    top:7px;
+    right:120px;
+
+}
+
+.right a{
+    display:block;
+    float:right;
+    text-decoration:none;
+    background-color: rgba(169, 169, 169, 0.575);
+    color: white;
+    /* height:50px; */
+    padding: 15px;
+    position: absolute;
+    top:12px;
+    right:30px;
+
+}
+
+
+.right{
+    display: block;
+    float:right;
+    clear:both;
+
+}
+
+
+nav {
+    background-color: rgba(169, 169, 169, 0.575);
+    color: white;
+    height: 56px;
+    /*
+    the following was causing the increase in the width in the navigation bar.
+    because they were placed in the margin and padding of the navigation bar ==> nav 
+
+    padding: 5px 5px;
+    margin: 7px 3px; 
+    */
+
+    position: sticky;
+    top: 3px;
+    left: 3px;
+    
+
+}
+
+
+#navigation {
+    display: inline-block;
+    margin: auto;
+}
+
+
+
+#navigation ul {
+    overflow: auto;
+    list-style: none;
+    margin: 0px 0px;
+    border:2px solid black;
+}
+
+
+#navigation li {
+    float: left;
+    /* clear: right; */
+    padding: 7px;
+    margin: 10px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: azure;
+}
+
+
+
+nav li a:active,.right a:active{
+    text-decoration: underline;
+    /* text-decoration-color: black; */
+    font-family: cursive;
+    color: whitesmoke;
+}
+
+
+
+nav li a :hover,.right a:hover {
+    text-decoration: underline;
+    /* text-decoration-color: black; */
+    font-family: cursive;
+    color:whitesmoke;
+    
+}
+
+nav:hover,nav:active{
+    font-size: large;
+}
+
+nav li a:visited {
+    text-decoration: underline;
+    /* text-decoration-color: rgba(0, 0, 0, 0.925); */
+    color:whitesmoke;
+}
+
+/*
+
+body url{
+    height:2100px;
+}
+
+*/
+
+#workout_image{
+    width:270px;
+    height: 250px;
+    margin:20px 15px;
+    padding:50px 15px;
+    /* position: absolute;
+    top:150px;
+    right:50px; */
+}
+
+
+#sale img{
+    height:200px;
+    width:350px;
+    border:5px solid red;
+}
+
+#sale{
+    position: absolute;
+    top:150px;
+    right:50px;
+}
+
+#sale h1
+{
+    width:38%;
+    margin: auto;
+    background-color: red;
+}
+
+.definition{
+
+    background-color:#80808094;
+
+}
+
+.definition #inside_gym,.definition #trainer ,.form_attributes,#form_details,.btn{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+#inside_gym img{
+    display: block;
+    width:37%;
+    position:relative;
+    top:36px;
+    left:25px;
+    width:510px;
+    height:257px;
+    /* box-sizing: border-box; */
+}
+
+#inside_gym p{
+    width:37%;
+    padding:auto;
+    margin:auto;
+    text-align: justify;
+    position:absolute;
+    top:800px;
+    right:100px;
+    box-sizing: border-box;
+    
+}
+
+#trainer{
+
+    width:37%;
+    padding:auto;
+    margin:auto;
+    text-align: justify;
+    position:relative;
+    top:120px;
+    right:320px;
+    box-sizing: border-box;
+}
+
+#trainer p{
+    position:relative;
+    top:15px;
+    right:10px;
+
+}
+
+#trainer img{
+
+    height:270px;
+    width:380px;
+    position: relative;
+    left:720px;
+    bottom:170px;
+
+}
+
+#front_view {
+
+    font-size: 17px;
+    font-weight: bold;
+    color:black;
+    width: 33%;
+    font-style: oblique;
+    font-family: monospace;
+    padding: auto;
+    /* margin: 372px 1px 0px 5px; */
+    box-sizing: border-box;
+}
+
+#impression {
+
+    width: 27%;
+    text-align: justify;
+    margin: 10px 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-style: italic;
+    box-sizing: border-box;
+    /* color:rgba(245, 245, 245, 0.404); */
+    color:black;
+    font-weight: bold;
+
+}
+
+#form_details{
+    border-radius: 12px;
+    padding: 1rem;
+    /* padding-bottom: 5px; */
+    width:60%;
+    margin:auto;
+    height:520px;
+    background-color: black;
+}
+
+#form_details h1{
+    width:70%;
+    /* height:50px; */
+    margin: 19px auto;
+    padding: auto;
+    box-sizing: border-box;
+    color:aliceblue;
+    border:3px solid aliceblue; 
+}
+
+#form{
+    
+    width:100%;
+    margin:auto;
+}
+
+.form_attributes{
+    width:57%;
+    height:30px;
+    margin:10px 120px;
+    border:3px solid black;
+    border-radius: 17px;
+    padding:3px 120px;
+    box-sizing: border-box;
+
+}
+
+#Gender{
+    color:aliceblue;
+    box-sizing: border-box;
+    margin:auto 50px;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: none;
+
+}
+
+#whole_left{
+    background-color:#0000001a;
+}
+
+#finisher{
+    width:30%;
+    margin: 7px auto;
+    box-sizing: border-box;
+}
+
+
+.btn
+{
+    
+    cursor: pointer;
+    border: 2px solid grey;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    box-sizing: border-box;
+    margin: auto 3px;
+    width:30%;
+    height:40px;
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    top:30px;
+    left:30px;
+
+}
+
+.btn:hover,.btn:active{
+    background-color: grey;
+    color:bisque;
+    border:2px solid black;
+}
